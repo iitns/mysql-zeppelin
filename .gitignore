@@ -1,2 +1,6 @@
 mysql/data
 init-mysql/credentials.json
+init-mysql/venv
+init-mysql/.idea
+init-mysql/import_gs/token.json
+*.json

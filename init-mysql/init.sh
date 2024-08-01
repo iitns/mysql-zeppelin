@@ -1,7 +1,5 @@
 #!/bin/bash
 
-env
-
 mysql -h${MYSQL_HOST} \
     -P${MYSQL_PORT} \
     -u${MYSQL_USER} \
@@ -9,3 +7,5 @@ mysql -h${MYSQL_HOST} \
     ${MYSQL_DATABASE} \
     < /app/init-schema.sql
 
+
+/usr/bin/env python3 /app/init.py
